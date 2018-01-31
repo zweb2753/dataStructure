@@ -10,6 +10,7 @@
 		DC99EEAB20220CA40011ADF5 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEA920220CA40011ADF5 /* FileController.cpp */; };
 		DC99EEAE20220CB60011ADF5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEAC20220CB60011ADF5 /* Controller.cpp */; };
 		DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB020220CDD0011ADF5 /* Runner.cpp */; };
+		DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB720220F590011ADF5 /* Timer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		DC99EEAC20220CB60011ADF5 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		DC99EEAD20220CB60011ADF5 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		DC99EEB020220CDD0011ADF5 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
+		DC99EEB720220F590011ADF5 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		DC99EEB820220F590011ADF5 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +90,7 @@
 		DC99EEAF20220CC20011ADF5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DC99EEB620220F250011ADF5 /* Tools */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -110,6 +114,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DC99EEB620220F250011ADF5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DC99EEB720220F590011ADF5 /* Timer.cpp */,
+				DC99EEB820220F590011ADF5 /* Timer.hpp */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +185,7 @@
 				DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */,
 				DC99EEAB20220CA40011ADF5 /* FileController.cpp in Sources */,
 				DC99EEAE20220CB60011ADF5 /* Controller.cpp in Sources */,
+				DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
