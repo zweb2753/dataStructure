@@ -11,6 +11,7 @@
 		DC99EEAE20220CB60011ADF5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEAC20220CB60011ADF5 /* Controller.cpp */; };
 		DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB020220CDD0011ADF5 /* Runner.cpp */; };
 		DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB720220F590011ADF5 /* Timer.cpp */; };
+		DC99EEBB20221F330011ADF5 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEBA20221F310011ADF5 /* CrimeData.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		DC99EEB020220CDD0011ADF5 /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		DC99EEB720220F590011ADF5 /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		DC99EEB820220F590011ADF5 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		DC99EEBA20221F310011ADF5 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = ../../../../Downloads/CrimeData.cpp; sourceTree = "<group>"; };
+		DC99EEBC20221F550011ADF5 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 		DC99EEB420220D4C0011ADF5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				DC99EEBC20221F550011ADF5 /* CrimeData.hpp */,
+				DC99EEBA20221F310011ADF5 /* CrimeData.cpp */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */,
+				DC99EEBB20221F330011ADF5 /* CrimeData.cpp in Sources */,
 				DC99EEAB20220CA40011ADF5 /* FileController.cpp in Sources */,
 				DC99EEAE20220CB60011ADF5 /* Controller.cpp in Sources */,
 				DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */,
