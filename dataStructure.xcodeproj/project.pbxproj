@@ -14,6 +14,7 @@
 		DC99EEBB20221F330011ADF5 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEBA20221F310011ADF5 /* CrimeData.cpp */; };
 		DC9FF0912029F7F300023312 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF08F2029F7F300023312 /* Array.cpp */; };
 		DC9FF095202A001E00023312 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF093202A001E00023312 /* ArrayTester.cpp */; };
+		DC9FF099202A10B600023312 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF097202A10B600023312 /* Node.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,8 @@
 		DC9FF0902029F7F300023312 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		DC9FF093202A001E00023312 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		DC9FF094202A001E00023312 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
+		DC9FF097202A10B600023312 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
+		DC9FF098202A10B600023312 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,7 @@
 		DC99EEB520220D5A0011ADF5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DC9FF096202A108500023312 /* Nodes */,
 				DC9FF08F2029F7F300023312 /* Array.cpp */,
 				DC9FF0902029F7F300023312 /* Array.hpp */,
 			);
@@ -146,6 +150,15 @@
 				DC9FF094202A001E00023312 /* ArrayTester.hpp */,
 			);
 			path = Testers;
+			sourceTree = "<group>";
+		};
+		DC9FF096202A108500023312 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FF097202A10B600023312 /* Node.cpp */,
+				DC9FF098202A10B600023312 /* Node.hpp */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +225,7 @@
 				DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */,
 				DC9FF095202A001E00023312 /* ArrayTester.cpp in Sources */,
 				DC9FF0912029F7F300023312 /* Array.cpp in Sources */,
+				DC9FF099202A10B600023312 /* Node.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
