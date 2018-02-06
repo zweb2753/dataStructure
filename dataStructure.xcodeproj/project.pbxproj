@@ -12,6 +12,8 @@
 		DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB020220CDD0011ADF5 /* Runner.cpp */; };
 		DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB720220F590011ADF5 /* Timer.cpp */; };
 		DC99EEBB20221F330011ADF5 /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEBA20221F310011ADF5 /* CrimeData.cpp */; };
+		DC9FF0912029F7F300023312 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF08F2029F7F300023312 /* Array.cpp */; };
+		DC9FF095202A001E00023312 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF093202A001E00023312 /* ArrayTester.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +39,10 @@
 		DC99EEB820220F590011ADF5 /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		DC99EEBA20221F310011ADF5 /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CrimeData.cpp; path = ../../../../Downloads/CrimeData.cpp; sourceTree = "<group>"; };
 		DC99EEBC20221F550011ADF5 /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = CrimeData.hpp; path = ../../../../Downloads/CrimeData.hpp; sourceTree = "<group>"; };
+		DC9FF08F2029F7F300023312 /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
+		DC9FF0902029F7F300023312 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
+		DC9FF093202A001E00023312 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
+		DC9FF094202A001E00023312 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +64,6 @@
 				DC99EEB420220D4C0011ADF5 /* Data */,
 				DC99EEAF20220CC20011ADF5 /* Controller */,
 				DC99EEB520220D5A0011ADF5 /* Model */,
-				DC99EEA820220C710011ADF5 /* Testing */,
 				DC99EE9C20220B7F0011ADF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +79,7 @@
 		DC99EE9D20220B7F0011ADF5 /* dataStructure */ = {
 			isa = PBXGroup;
 			children = (
+				DC9FF0922029FFA000023312 /* Testers */,
 				DC99EEB020220CDD0011ADF5 /* Runner.cpp */,
 			);
 			path = dataStructure;
@@ -82,7 +88,6 @@
 		DC99EEA820220C710011ADF5 /* Testing */ = {
 			isa = PBXGroup;
 			children = (
-				DC99EEA920220CA40011ADF5 /* FileController.cpp */,
 				DC99EEAA20220CA40011ADF5 /* FileController.hpp */,
 				DC99EEAC20220CB60011ADF5 /* Controller.cpp */,
 				DC99EEAD20220CB60011ADF5 /* Controller.hpp */,
@@ -108,8 +113,8 @@
 		DC99EEB420220D4C0011ADF5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				DC99EEBC20221F550011ADF5 /* CrimeData.hpp */,
 				DC99EEBA20221F310011ADF5 /* CrimeData.cpp */,
+				DC99EEBC20221F550011ADF5 /* CrimeData.hpp */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -117,6 +122,8 @@
 		DC99EEB520220D5A0011ADF5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DC9FF08F2029F7F300023312 /* Array.cpp */,
+				DC9FF0902029F7F300023312 /* Array.hpp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,8 +133,19 @@
 			children = (
 				DC99EEB720220F590011ADF5 /* Timer.cpp */,
 				DC99EEB820220F590011ADF5 /* Timer.hpp */,
+				DC99EEA820220C710011ADF5 /* Testing */,
+				DC99EEA920220CA40011ADF5 /* FileController.cpp */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		DC9FF0922029FFA000023312 /* Testers */ = {
+			isa = PBXGroup;
+			children = (
+				DC9FF093202A001E00023312 /* ArrayTester.cpp */,
+				DC9FF094202A001E00023312 /* ArrayTester.hpp */,
+			);
+			path = Testers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,6 +210,8 @@
 				DC99EEAB20220CA40011ADF5 /* FileController.cpp in Sources */,
 				DC99EEAE20220CB60011ADF5 /* Controller.cpp in Sources */,
 				DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */,
+				DC9FF095202A001E00023312 /* ArrayTester.cpp in Sources */,
+				DC9FF0912029F7F300023312 /* Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

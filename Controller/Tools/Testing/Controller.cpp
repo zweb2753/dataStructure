@@ -16,11 +16,8 @@ void Controller :: start()
     cout << "Testing the Timer class" << endl;
     Timer codeTimer;
     codeTimer.startTimer();
-    cout << "print to the screen some text" << endl;
+    vector<CrimeData myData = FileController ::
+        readCrimeDataToVector("/Users/zweb2753/Downloads/CrimeData.cpp")
     codeTimer.stopTimer();
     codeTimer.displayInformation();
-    
-    codeTimer.resetTimer();
-    
-    
 }

@@ -15,7 +15,7 @@
 #include <fstream>
 #include <sstream>
 #include "Tools/Timer.hpp"
-
+#include "../Data/CrimeData.hpp"
 #include <iostream>
 #include <vector>
 
