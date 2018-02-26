@@ -20,8 +20,8 @@
 
 class Timer
 {
-    
-};
+private:
+    clock_t executionTime;
 public:
     Timer();
     void startTimer();
@@ -29,7 +29,6 @@ public:
     void resetTimer();
     void displayInformation();
     long getTimeInMicroseconds();
+    
+};
 
-
-private:
-clock_t executionTime;
