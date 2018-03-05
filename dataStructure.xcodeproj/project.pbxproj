@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DC1AE5F6203F155200FF8359 /* DoubleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC1AE5F4203F155200FF8359 /* DoubleNode.cpp */; };
 		DC522E5F20470EAB00A206A5 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC522E5D20470EAB00A206A5 /* TestingStacksAndQueues.cpp */; };
+		DC67DAE2204D8F46007D4090 /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC67DAE0204D8F46007D4090 /* RecursionTester.cpp */; };
 		DC99EEAB20220CA40011ADF5 /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEA920220CA40011ADF5 /* FileController.cpp */; };
 		DC99EEAE20220CB60011ADF5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEAC20220CB60011ADF5 /* Controller.cpp */; };
 		DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC99EEB020220CDD0011ADF5 /* Runner.cpp */; };
@@ -41,6 +42,8 @@
 		DC2ACCF6203C6F48008E0DBC /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		DC522E5D20470EAB00A206A5 /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
 		DC522E5E20470EAB00A206A5 /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
+		DC67DAE0204D8F46007D4090 /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
+		DC67DAE1204D8F46007D4090 /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 		DC99EE9B20220B7F0011ADF5 /* dataStructure */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataStructure; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC99EEA920220CA40011ADF5 /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
 		DC99EEAA20220CA40011ADF5 /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
@@ -119,6 +122,8 @@
 				DC99EEAA20220CA40011ADF5 /* FileController.hpp */,
 				DC99EEAC20220CB60011ADF5 /* Controller.cpp */,
 				DC99EEAD20220CB60011ADF5 /* Controller.hpp */,
+				DC67DAE0204D8F46007D4090 /* RecursionTester.cpp */,
+				DC67DAE1204D8F46007D4090 /* RecursionTester.hpp */,
 			);
 			path = Testing;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				DC1AE5F6203F155200FF8359 /* DoubleNode.cpp in Sources */,
 				DC99EEB920220F590011ADF5 /* Timer.cpp in Sources */,
 				DC9FF095202A001E00023312 /* ArrayTester.cpp in Sources */,
+				DC67DAE2204D8F46007D4090 /* RecursionTester.cpp in Sources */,
 				DC9FF0912029F7F300023312 /* Array.cpp in Sources */,
 				DC9FF099202A10B600023312 /* Node.cpp in Sources */,
 			);
