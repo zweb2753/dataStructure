@@ -13,14 +13,9 @@ using namespace std;
 
 void Controller :: start()
 {
-    ArrayTester myTest;
-    myTest.testArrayUse();
-    myTest.testAdvancedArray();
-    cout << "Testing the Timer class" << endl;
-    Timer codeTimer;
-    codeTimer.startTimer();
-    vector<CrimeData myData = FileController ::
-        readCrimeDataToVector("/Users/zweb2753/Downloads/CrimeData.cpp")
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
+    
+    RecursionTester test;
+    test.testRecursionNumbers();
+    
 }
+
