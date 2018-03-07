@@ -93,6 +93,36 @@ void TestStacksAndQueues:: stackVersusQueue()
         stack.push(index);
     }
     
+    for (int index = 0; index = 0; index < 10; index++)
+    {
+        queue.enqueue(index);
+        stack.push(index);
+    }
+    
+    for (int index = 0; index< 10; index++)
+    {
+        stackFromQueue.push(queue.dequeue());
+        queueFromStack.enqueue(stack.pop());
+    }
+    
+    for (int index = 0; index < 10; index++)
+    {
+        cout << index << endl;
+        cout << "Stack Result: " << stackFromQueue.pop() << endl;
+        cout << "Queue result: " << queueFromStack.dequeue() << endl;
+    }
+    
+    Queue<string> wordQueue;
+    LinkedList<string> wordList;
+    
+    wordQueue.add("first");
+    wordQueue.add("second");
+    wordQueue.add("Third");
+    wordQueue.add("Fourth");
+    wordQueue.add("Fith");
+    
+    
+    word
 }
 
 
