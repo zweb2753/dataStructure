@@ -62,9 +62,38 @@ listTimer.displayInformation();
 cout << "what is left in the stack" << endl;
 LinkedList<int> * listVersion = &numberStack;
 int stackSize = listVersion->getSize();
-cout << "Stack size is: " << stackSize
+cout << "Stack size is: " << stackSize << endl;
+for (int index = 0; index < listSize; index++)
+{
+    cout << numberList.getFromIndex(index) << "\t";
+}
 
-
+void TestStacksAndQueues:: stackVersusQueue()
+{
+    vector<CrimeData> crimeStack;
+    Queue<CrimeData> CrimeQueue;
+    
+    
+    for (int index = 0; index < 10; index++)
+    {
+        queue.enqueue(index);
+        stack.push(index);
+    }
+    
+    for (int index = 0; index < 10; index++)
+    {
+        cout << index << endl;
+        cout << "Queue result: " << queue.dequeue() << endl;
+        cout << "Stack result: " << stack.pop() << endl;
+    }
+    
+    for (int index = 0; index < 10; index++)
+    {
+        queue/enqueue(index);
+        stack.push(index);
+    }
+    
+}
 
 
 
