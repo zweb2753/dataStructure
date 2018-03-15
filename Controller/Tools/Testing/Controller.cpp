@@ -13,9 +13,20 @@ using namespace std;
 
 void Controller :: start()
 {
-    
-    RecursionTester test;
-    test.testRecursionNumbers();
-    
+    SortingTester my;
+    my.testSorts();
 }
 
+void Controller :: testStacksAndQueues()
+{
+    TestStacksAndQueues myTest;
+    myTest.queueVersusList();
+    myTest.stackVersusQueue();
+    myTest.stackVersusList();
+}
+void Controller :: findMaxAndMin()
+{
+    Timer searchTimer;
+    searchTimer.startTimer();
+    vector<CrimeData> myData =
+}
