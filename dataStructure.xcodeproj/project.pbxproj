@@ -19,6 +19,7 @@
 		DC9FF0912029F7F300023312 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF08F2029F7F300023312 /* Array.cpp */; };
 		DC9FF095202A001E00023312 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF093202A001E00023312 /* ArrayTester.cpp */; };
 		DC9FF099202A10B600023312 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DC9FF097202A10B600023312 /* Node.cpp */; };
+		DCC5D4222060026A002DB0F8 /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DCC5D4202060026A002DB0F8 /* Graph.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,8 @@
 		DC9FF094202A001E00023312 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
 		DC9FF097202A10B600023312 /* Node.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Node.cpp; sourceTree = "<group>"; };
 		DC9FF098202A10B600023312 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
+		DCC5D4202060026A002DB0F8 /* Graph.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Graph.cpp; sourceTree = "<group>"; };
+		DCC5D4212060026A002DB0F8 /* Graph.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Graph.hpp; sourceTree = "<group>"; };
 		DCF423EF2031F8DD00063C5B /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -161,6 +164,8 @@
 				DC2ACCF4203C6F0C008E0DBC /* LinearStructures */,
 				DC9FF096202A108500023312 /* Nodes */,
 				DC9FF08F2029F7F300023312 /* Array.cpp */,
+				DCC5D4202060026A002DB0F8 /* Graph.cpp */,
+				DCC5D4212060026A002DB0F8 /* Graph.hpp */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			files = (
 				DC99EEB220220CDD0011ADF5 /* Runner.cpp in Sources */,
 				DC522E5F20470EAB00A206A5 /* TestingStacksAndQueues.cpp in Sources */,
+				DCC5D4222060026A002DB0F8 /* Graph.cpp in Sources */,
 				DC99EEBB20221F330011ADF5 /* CrimeData.cpp in Sources */,
 				DC67F560205AB37C00DBAAD8 /* SortingTester.cpp in Sources */,
 				DC99EEAB20220CA40011ADF5 /* FileController.cpp in Sources */,
