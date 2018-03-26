@@ -143,10 +143,32 @@ bool Graph<Type> :: hasUndirectedConnection(int source, int target) const
         return isAnEdge;
 }
     
+template <class Type>
+void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex)
+{
+        bool visitedVertices[MAXIMUM];
+        assert(vertex < currentGraph.size());
+        std::fill_n(visitedVertices, currentGraph.size(), false);
+        depthFirstTraversal(currentGraph, vertex, visitedVertices);
+}
     
+template <class Type>
+void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex, bool * visited)
+{
+        std::set<int> connections = currentGraph.neighbors(vertex);
+        std::set<int>::iterator setIterator;
     
+        visited[vertex] = true;
+        cout << currentGraph[vertex] << ", " << endl;
     
-    
+        for(setIterator = connections.begin(); setIterator != connections.end(); setIterator++)
+        {
+                if(!visited[*setIterator])
+                {
+                    depthFirstTraversal(currentGraph, *setIterator, visited);
+                }
+         }
+    }
     
     
     
