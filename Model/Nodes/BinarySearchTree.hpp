@@ -117,7 +117,7 @@ template <class Type>
 void BinarySearchTree<Type> :: insert(Type itemToInsert)
 {
     BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(itemToInsert);
-    BinaryTreeNode<Type> * 
+    BinaryTreeNode<Type> *
 }
 
 
